@@ -391,6 +391,7 @@ input[type=submit] {
   #logo {
     width: 100%;
     padding-top: 0px;
+    margin-left: 0px;
   }
 
   nav {
@@ -418,7 +419,7 @@ input[type=submit] {
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
   #logo {
     margin-left: 20px;
